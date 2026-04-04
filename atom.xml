@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>张师兄居士</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://chengyang2019.github.io/</id>
+  <link href="https://chengyang2019.github.io/" rel="alternate"/>
+  <link href="https://chengyang2019.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 张师兄居士</rights>
+  <title>我初学佛心得体会报告</title>
+  <updated>2026-03-28T16:00:18.355Z</updated>
+  <entry>
+    <author>
+      <name>张师兄居士</name>
+    </author>
+    <id>https://chengyang2019.github.io/2026/03/29/a/</id>
+    <link href="https://chengyang2019.github.io/2026/03/29/a/"/>
+    <published>2026-03-28T16:00:18.000Z</published>
+    <title>a</title>
+    <updated>2026-03-28T16:00:18.355Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>张师兄居士</name>
+    </author>
+    <id>https://chengyang2019.github.io/2026/03/28/hello-world/</id>
+    <link href="https://chengyang2019.github.io/2026/03/28/hello-world/"/>
+    <published>2026-03-28T13:47:13.244Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-03-28T13:47:13.244Z</updated>
+  </entry>
+</feed>
