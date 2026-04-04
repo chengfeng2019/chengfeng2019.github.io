@@ -20,10 +20,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"chengyang2019.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
 
-    <meta property="og:type" content="website">
+    <meta name="description" content="以通俗易懂的方式讲解传递正法,助您化解烦恼">
+<meta property="og:type" content="website">
 <meta property="og:title" content="我初学佛心得体会报告">
 <meta property="og:url" content="https://chengyang2019.github.io/archives/2026/03/index.html">
 <meta property="og:site_name" content="我初学佛心得体会报告">
+<meta property="og:description" content="以通俗易懂的方式讲解传递正法,助您化解烦恼">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="张师兄居士">
 <meta name="twitter:card" content="summary">
@@ -125,7 +127,7 @@
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">张师兄居士</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">以通俗易懂的方式讲解传递正法,助您化解烦恼</div>
 </div>
 <div class="site-state-wrap animated">
   <nav class="site-state">
@@ -272,25 +274,7 @@
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
-<!-- ?????????????????? -->
-<span id="timeDate">????????...</span>
-<span id="times">??????????...</span>
-<script>
-    var now = new Date();
-    function createtime() {
-        var grt= new Date("04/04/2026 10:00:00"); //????????????????????????????????????
-        now.setTime(now.getTime()+250);
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "?????????????? "+dnum+" ?? ";
-        document.getElementById("times").innerHTML = hnum + " ???? " + mnum + " ?? " + snum + " ??.";
-    }
-setInterval("createtime()",250);
-</script>
+
 
     </div>
   </footer>
